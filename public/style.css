@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F0FDF4;
+
+}
+.bg svg{
+    position: fixed; top: 0px; left:0px; z-index: -2;
+}
+.bg div{
+    height: 100vh; width: 100%;position: fixed;top:0px; background: radial-gradient(50% 50% at 50% 50%,rgba(247, 248, 249, 0.00), #F7F8F9); z-index: -1;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    /* background-color: aqua; */
+    margin: auto;
+    height: 80px;
+}
+.logo{
+    height: 50px;
+    width: 150px;
+    background: url(Ministry_of_Coal.png);
+    background-size: cover;
+}
+.ele{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    color: #556987;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3rem;
+    border-radius: 6px;
+    background: var(--primary-500, #22C55E);
+    box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+    padding: 16px;
+    color: #F0FDF4;
+}
+.content{
+    margin: auto;
+    margin-left: 150px;
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items:baseline;
+    height: 70vh;
+    /* background-color: aqua; */
+    margin-top: 100px;
+    width: 45%;
+    flex-direction: column;
+    gap: 24px;
+}
+.content h1{
+    color: var(--gray-900, #2A3342);
+
+    /* display-xl/ExtraBold */
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 120% */
+    letter-spacing: -1.2px;
+}
+
+.content p{
+    color: var(--gray-500, #556987);
+
+/* text-xl/Medium */
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.sw {
+    padding: 16px 28px;
+    border-radius: 6px;
+background: var(--primary-500, #22C55E);
+box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+color: var(--primary-050, #F0FDF4);
+
+/* text-lg/Medium */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 155.556% */
+}
+
+.vw{
+    padding: 16px 28px;
+    border-radius: 6px;
+background: var(--white-900, #FFF);
+box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+color: var(--gray-800, #333F51);
+
+/* text-lg/Medium */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 155.556% */
+}
+.trust{
+    margin-top: 20px;
+    color: var(--gray-400, #8896AB);
+font-stretch:extra-expanded;
+/* text-sm/Medium */
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+}
+
+.image{
+    background: url(img.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    /* background-size: cover; */
+    height: 70vh;
+    top:100px;
+    right: -200px;
+    width: 55%;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    bottom: 0;
+    width: 100%;
+    background-color: #2A3342;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* z-index: 100; */
+    /* gap: 1px !important; */
+    /* justify-content: space-around; */
+
+    gap:3px;
+    color: #F0FDF4;
+}
+.fitem{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 50%; */
+    gap: 15px;
+}
+.copyright{
+    font-weight: 30; color: #f7f8f9ad;
+
+}
